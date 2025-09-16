@@ -1,30 +1,31 @@
-# 🏥 Clínica Sistema
+# 🏥 Clinic System
 
-Um sistema simples de **cadastro de pacientes** para clínicas médicas.  
-O objetivo é permitir que os **médicos** possam cadastrar, visualizar e gerenciar a lista de pacientes de forma prática.  
-
----
-
-## 📌 Funcionalidades
-
-- Cadastro de pacientes (nome, idade, informações básicas)
-- Listagem de pacientes para o médico
-- Organização simples em módulos
-- Preparado para rodar com **Docker**
+A simple **patient registration system** for medical clinics.  
+The goal is to allow **doctors** to register, view, and manage their patients easily.  
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 📌 Features
 
-- **PHP** (com padrão MVC)
-- **MySQL** (banco de dados relacional)
-- **Docker & Docker Compose** (containerização)
-- **Nginx** (servidor web)
-- **Composer** (gerenciador de dependências)
+- Patient registration (name, age, basic information)  
+- Patient listing for doctors  
+- Simple modular structure  
+- Ready to run with **Docker**  
 
 ---
 
-## Estrutura do projeto
+## 🛠️ Technologies Used
+
+- **PHP** (MVC pattern)  
+- **MySQL** (relational database)  
+- **Docker & Docker Compose** (containerization)  
+- **Nginx** (web server)  
+- **Composer** (dependency manager)  
+
+---
+
+## 📂 Project Structure
+
 clinica-sistema/
 │-- .docker/
 │-- public/
@@ -33,25 +34,25 @@ clinica-sistema/
 │-- docker-compose.yml
 │-- README.md
 
-## 🚀 Como rodar o projeto
+## 🚀 Getting Started
 
-### 1. Clone este repositório
+### 1. Clone this repository
 ```bash
 git clone https://github.com/Any97Cris/clinica-sistema.git
 cd clinica-sistema
 ```
 
-### 2. Clone este repositório
+### 2. Type in the terminal
 ```bash
 docker-compose up
 ```
 
-### 3. Acesse no navegador
+### 3. Access in the browser
 ```bash
 http://localhost
 ```
 
-## 🤝 Contribuindo
+## 🤝 Contributing
 
-Contribuições são bem-vindas!
-Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome!
+Feel free to open an issue or submit a pull request.
